@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="430" viewBox="0 0 1160 430" role="img" aria-labelledby="title desc">
+  <title id="title">Research trajectory of Chengzhi Yuan</title>
+  <desc id="desc">A graph showing a progression from the Putnam 2025 formal-first experiment to agent tools and feedback, ContextSwarm's collaborative Fermat's Last Theorem formalization, trace analysis, and an evolving research environment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#eef4f8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d98d36"/>
+      <stop offset="1" stop-color="#b7642d"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#7a9ab0"/>
+    </marker>
+    <marker id="arrowAccent" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#b7642d"/>
+    </marker>
+    <style>
+      .title { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17344e; }
+      .label { font: 700 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #17344e; }
+      .small { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #4d6679; }
+      .card { fill: #ffffff; stroke: #c6d8e3; stroke-width: 1.5; }
+      .line { fill: none; stroke: #7a9ab0; stroke-width: 3; marker-end: url(#arrow); }
+      .lineAccent { fill: none; stroke: #b7642d; stroke-width: 3.2; marker-end: url(#arrowAccent); }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1156" height="426" rx="24" fill="url(#bg)" stroke="#d8e5ec" stroke-width="2"/>
+  <text x="46" y="49" class="title">From reliable mathematical action to an evolving research environment</text>
+  <text x="46" y="76" class="small">A personal trajectory across tools, formal proof, multi-agent collaboration, and evidence.</text>
+
+  <path class="line" d="M247 187 C287 146 306 137 353 137"/>
+  <path class="lineAccent" d="M586 137 C631 145 653 177 679 205"/>
+  <path class="line" d="M789 205 C812 174 826 159 846 159"/>
+  <path class="line" d="M1002 193 C1012 231 1031 264 1041 287"/>
+
+  <g>
+    <rect class="card" x="38" y="134" width="209" height="106" rx="17"/>
+    <circle cx="64" cy="165" r="12" fill="#2e6687"/>
+    <text x="87" y="170" class="label">Putnam 2025</text>
+    <text x="58" y="198" class="small">formal-first run</text>
+  </g>
+
+  <g>
+    <rect class="card" x="353" y="82" width="233" height="127" rx="17"/>
+    <circle cx="380" cy="115" r="12" fill="#3a8292"/>
+    <text x="403" y="120" class="label">Tools and feedback</text>
+    <text x="373" y="153" class="small">tools · feedback · ProofState</text>
+  </g>
+
+  <g>
+    <rect class="card" x="679" y="205" width="210" height="116" rx="17"/>
+    <circle cx="706" cy="239" r="12" fill="url(#accent)"/>
+    <text x="729" y="244" class="label">ContextSwarm</text>
+    <text x="699" y="272" class="small">collaborative FLT run</text>
+  </g>
+
+  <g>
+    <rect class="card" x="846" y="82" width="276" height="111" rx="17"/>
+    <circle cx="873" cy="115" r="12" fill="#6d718c"/>
+    <text x="896" y="120" class="label">Trace and evidence</text>
+    <text x="867" y="149" class="small">trace + evidence analysis</text>
+  </g>
+
+  <g>
+    <rect class="card" x="969" y="287" width="153" height="97" rx="17"/>
+    <circle cx="995" cy="319" r="12" fill="#24465f"/>
+    <text x="1018" y="324" class="label">Next question</text>
+    <text x="990" y="350" class="small">evolving environment</text>
+  </g>
+
+</svg>
