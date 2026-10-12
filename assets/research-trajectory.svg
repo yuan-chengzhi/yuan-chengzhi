@@ -46,7 +46,7 @@
     <rect class="card" x="353" y="82" width="233" height="127" rx="17"/>
     <circle cx="380" cy="115" r="12" fill="#3a8292"/>
     <text x="403" y="120" class="label">Tools and feedback</text>
-    <text x="373" y="153" class="small">tools · feedback · ProofState</text>
+    <text x="373" y="153" class="small">tools · feedback · proof state</text>
   </g>
 
   <g>
